@@ -1,0 +1,63 @@
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(0, 0, 110);
+}
+
+table {
+  height: 150px;
+  width: 80%;
+  margin: 30px auto;
+  background-color: rgb(255, 214, 158);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  background-image: url("http://www.joinprogramming.com/wp-content/uploads/2021/10/Screen-Shot-2021-09-17-at-1.31.39-PM.png");
+  height: 100px;
+  width: 100%;
+  position: relative;
+  bottom: 40px;
+}
+
+th {
+  padding-right: 100%;
+}
+
+th,
+tr,
+td,
+table {
+  border: 1px solid black;
+}
+
+a {
+  color: rgb(0, 54, 120);
+}
+
+a:hover {
+  color: brown;
+}
+
+.table-title {
+  background-color: rgb(110, 110, 110);
+  margin: 50px;
+  padding: 30px;
+}
+
+.attributes {
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+}
+
+html {
+  background-color: blanchedalmond;
+  font-family: monospace;
+}

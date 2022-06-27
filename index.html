@@ -1,9 +1,137 @@
-<html>
- 
-<body>
-  <h1>Welcome to my website!</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Cheat sheet</title>
+  </head>
+
+  <header>
+    <nav>
+      <div class="title">
+        <h1>This is my cheat sheet</h1>
+      </div>
+    </nav>
+  </header>
+
+  <body>
+    <div class="table-title">
+      <h2>Table summary</h2>
+    </div>
+    <div class="cheat">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Meaning</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <!--Row 1-->
+            <th>thead</th>
+            <td>table head</td>
+            <td>
+              thead element defines a set of rows defining the head of the
+              columns of the table. more at
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead"
+                target="_blank"
+                >MDN</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <th>th</th>
+            <td>Table header element</td>
+            <td>
+              element defines a cell as header of a group of table cells. The
+              exact nature of this group is defined by the scope and headers
+              attributes. more at
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th"
+                target="_blank"
+                >MDN</a
+              >
+            </td>
+          </tr>
+
+          <tr>
+            <th>tbody</th>
+            <td>table body</td>
+            <td>
+              element encapsulates a set of table rows elements, indicating that
+              they comprise the body of the table. more at
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody"
+                target="_blank"
+                >MDN</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <th>tr</th>
+            <td>table row element</td>
+            <td>
+              element defines a row of cells in a table. The row's cells can
+              then be established using a mix of td (data cell) and th (header
+              cell) elements.
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr"
+                target="_blank"
+                >MDN</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <th>td</th>
+            <td>table data</td>
+            <td>
+              element defines a cell of a table that contains data. It
+              participates in the table model. more at
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td"
+                target="_blank"
+                >MDN</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <th>tfoot</th>
+            <td>table foot</td>
+            <td>
+              element defines a set of rows summarizing the columns of the
+              table. more at
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot"
+                target="_blank"
+                >MDN</a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="table2">
+      <table class="attributes">
+        <thead>
+          <th>attributes</th>
+          <th>Description</th>
+        </thead>
+        <tbody>
+          <tr>
+            <th>colspan</th>
+            <td>Defines how many columns a td element should span.</td>
+          </tr>
+          <tr>
+            <th>rowspan</th>
+            <td>Defines how many rows a td element should span.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
 </html>
